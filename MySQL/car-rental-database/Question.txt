@@ -1,0 +1,53 @@
+Car rental system - Create Table
+Refer to the given schema.
+Write a query to create the Owners table with the specified columns and constraints.
+Note: Letters in bold represents the table name
+Note: Maintain the same sequence of column order, as specified in the question description
+
+----------------------------------------------------------------------------------
+Cars not taken for rent
+Write a query to display car id, car name, car type of cars which was not taken for rent. Sort the result based on car id.
+HINT: Use Cars and Rentals tables to retrieve records.
+NOTE: Maintain the same sequence of column order, as specified in the question description
+
+-------------------------------------------------------------------------
+Car & owner details based on car type
+Write a query to display car id, car name and owner id of all the cars whose car type is 'Hatchback' or 'SUV'. Sort the result based on car id.
+(Hint: Use CARS tables to retrieve records. Data is case-sensitive. E.g: Car_type='Hatchback'. Use IN operator)
+NOTE: Maintain the same sequence of column order, as specified in the question description
+------------------------------------------------------------------------------------------
+
+Car rental system - add new column
+Refer to the given schema. Assume, CARS table has been already created. Write an appropriate query for the given requirement.
+Requirement 1: Add a new column Car_Regno VARCHAR(10) to the Cars table.
+Note: Letters in the bold represents the attribute name.
+------------------------------------------------------------------------------------------
+Car details based on type and name
+Write a query to display car id, car name and car type of Maruthi company 'Sedan' type cars. Sort the result based on car id.
+(HINT : Use Cars table to retrieve records.car name='Maruthi Swift'.car type='Sedan'.Data is case sensitive.)
+NOTE: Maintain the same sequence of column order, as specified in the question description
+--------------------------------------------------------------------------------------
+Maruthi car owner details
+Write a query to display distinct owner id, owner name, address, and phone no of owners who owns 'Maruthi' company car. Sort the result based on owner id.
+Note: If car_name contains a string 'Maruthi' it is a Maruthi company car.
+Example: 'Maruthi swift','Maruthi 800'
+HINT: Use Owners and Cars tables to retrieve records.
+NOTE: Maintain the same sequence of column order, as specified in the question description
+------------------------------------------------------------------------------------------
+car rental system - Insert values
+Refer to the given schema diagram. Insert the below records into Rentals Table. Assume the rentals table has been already created.
+ 
+Note: Letters in bold represent the attributes.
+NOTE: Maintain the same sequence of column order, as specified in the question description
+----------------------------------------------------------------------------------------
+
+Rental details based on date
+Write a query to display rental id, car id, customer id and km driven of rentals taken during 'AUGUST 2019'. Sort the result based on rental id.
+(HINT : Use Rentals table to retrieve records. Eg: return date: 2019-08-12 )
+NOTE: Maintain the same sequence of column order, as specified in the question description
+
+-------------------------------------------------------------------------------------------
+
+No of time rented by each car
+Write a query to display car id and number of times car taken for rental. Give an alias name to the number of times car taken for rental as 'NO_OF_TRIPS'. Sort the records based on car id in ascending order.
+(HINT: Use Rentals table to retrieve records.)
