@@ -1,2 +1,4 @@
-package temporary;public class Disposible {
+package temporary;
+
+public class Disposible {
 }
