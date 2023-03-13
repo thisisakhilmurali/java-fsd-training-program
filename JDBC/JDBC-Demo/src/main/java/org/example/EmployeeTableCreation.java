@@ -34,6 +34,5 @@ public class EmployeeTableCreation {
         } catch (Exception e) {
             System.out.println(e);
         }
-
     }
 }
