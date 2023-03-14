@@ -4,6 +4,6 @@ NOTE: The complete questions are in the respecitve folders
 
 <br>
 
-1. [Car Rental](MySQL\car-rental-database)
+1. [Car Rental](car-rental-database)
 
-2. [Employee details](MySQL\employee-details)
+2. [Employee details](employee-details)
