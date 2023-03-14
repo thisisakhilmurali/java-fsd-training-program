@@ -5,3 +5,4 @@
 ### [JDBC](JDBC)
 ### [MySQL](MySQL)
 ### [TestNG](TestNG)
+### [Coding Assessments](coding-assessments)
