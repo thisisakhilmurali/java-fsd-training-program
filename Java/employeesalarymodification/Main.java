@@ -33,24 +33,23 @@ public class Main {
 
         System.out.println("Last Salary");
 
-        for(Employee e: myEmployees) {
-            System.out.println(e.employeeName + ": " + e.employeeSalary);
-        }
+        myEmployees.forEach(val -> {
+            System.out.println(val.employeeName + ": " + val.employeeSalary);
+        });
 
-        System.out.println("----------------------------");
+        System.out.println("----------------------------------");
 
-
-        for(Employee e : myEmployees) {
-            if(e.employeeSalary >= 50000 && e.employeeSalary <= 100000){
-                double newSalary10Percent = (e.employeeSalary + (e.employeeSalary * 10) / 100);
-                e.setEmployeeSalary(newSalary10Percent);
-            } else if (e.employeeSalary < 50000) {
-                e.setEmployeeSalary(e.employeeSalary);
-            } else if (e.employeeSalary > 100000) {
-                double newSalary5Percent = (e.employeeSalary + (e.employeeSalary * 5) / 100);
-                e.setEmployeeSalary(newSalary5Percent);
+        myEmployees.forEach(val -> {
+            if(val.employeeSalary >= 50000 && val.employeeSalary <= 100000){
+                double newSalary10Percent = (val.employeeSalary + (val.employeeSalary * 10) / 100);
+                val.setEmployeeSalary(newSalary10Percent);
+            } else if (val.employeeSalary < 50000) {
+                val.setEmployeeSalary(val.employeeSalary);
+            } else if (val.employeeSalary > 100000) {
+                double newSalary5Percent = (val.employeeSalary + (val.employeeSalary * 5) / 100);
+                val.setEmployeeSalary(newSalary5Percent);
             }
-        }
+        });
 
         System.out.println("Current Salary");
         for(Employee e: myEmployees) {
