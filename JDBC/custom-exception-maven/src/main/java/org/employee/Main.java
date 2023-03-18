@@ -1,5 +1,7 @@
 package org.employee;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 // Importing custom exception classes
@@ -36,7 +38,7 @@ public class Main {
             int userChoice = sc.nextInt();
 
             // Getting candidate details
-            if (userChoice == 1){
+            if (userChoice == 1) {
 
                 sc.nextLine();
 
@@ -126,8 +128,7 @@ public class Main {
 
             } else if (userChoice == 2) {
                 System.exit(1);
-            }
-            else {
+            } else {
                 System.out.println("Please enter a valid choice from the menu");
             }
         }

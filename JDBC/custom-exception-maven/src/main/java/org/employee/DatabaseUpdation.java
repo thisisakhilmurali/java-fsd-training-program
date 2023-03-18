@@ -40,7 +40,7 @@ public class DatabaseUpdation {
             System.out.println("\nRECORD INSERTED SUCCESSFULLY");
 
         } catch (SQLException | ClassNotFoundException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         } finally {
 
             try {
