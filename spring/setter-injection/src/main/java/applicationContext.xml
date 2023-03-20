@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="heatblast" class="org.example.Roles">
+        <property name="characterName" value="heatblast"></property>
+        <property name="responsibility" value="throwing fire"></property>
+    </bean>
+    
+    <bean id="greymatter" class="org.example.Roles">
+        <property name="characterName" value="greymatter"></property>
+        <property name="responsibility" value="using brain"></property>
+    </bean>
+
+</beans>
