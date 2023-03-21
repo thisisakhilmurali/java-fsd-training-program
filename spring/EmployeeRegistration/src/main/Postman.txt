@@ -1,0 +1,18 @@
+1. Run the program "EmployeeRegistrationApplication.java"
+2. Copy localhost link "localhost:8080/emp/registration/addemp" and paste it to postman via POST
+3. Click on Body --> JSON
+4. {
+       "employeeId": "123454",
+       "employeeName": "Ryan",
+       "address": "Manhattan",
+       "location": "NYC"
+   }
+
+5. Click on Send button.
+
+--------
+verification
+1. localhost:8080/h2-console
+2. Enter the database url "jdbc:h2:mem:testdb"
+3. Enter password and username
+4. Run a query
