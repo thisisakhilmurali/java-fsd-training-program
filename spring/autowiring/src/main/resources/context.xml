@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="comms-check" class="org.example.NotificationService" autowire="byName"></bean>
+
+    <bean id="email-services" class="org.example.EmailService"></bean>
+    <bean id="sms-services" class="org.example.SMSServices"></bean>
+
+    <bean id="messageServices" class="org.example.EmailService"></bean>
+
+
+</beans>
