@@ -8,8 +8,9 @@
 
     <bean id="comms-check" class="org.example.NotificationService" autowire="byName"></bean>
 
-    <bean id="email-services" class="org.example.EmailService"></bean>
-    <bean id="sms-services" class="org.example.SMSServices"></bean>
+<!-- Not Necessary to write the below two lines -->
+    <!-- <bean id="email-services" class="org.example.EmailService"></bean>
+    <bean id="sms-services" class="org.example.SMSServices"></bean> -->
 
     <bean id="messageServices" class="org.example.EmailService"></bean>
 
