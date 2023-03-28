@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Anagram</title>
+</head>
+
+<body>
+
+    <div>
+        <label for="wordOne"> First Word:
+            <input type="text" name="wordOne" id="wordOne">
+        </label>
+
+        <br>
+
+        <label for="wordTwo"> Second Word:
+            <input type="text" name="wordTwo" id="wordTwo">
+        </label>
+
+        <br>
+
+        <button onclick="checkForAnagram()">Check for Anagram</button>
+
+        <p id="result"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

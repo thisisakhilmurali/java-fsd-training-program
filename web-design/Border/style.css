@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(59, 206, 39);
+    border-width: 5px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+/* All Values --> TRBL */
+#temple-run {
+    border-style: dotted dashed solid double;
+    border-color: red;
+}
+
+
+/* Two values of border --> TB/LR*/
+#call-of-duty {
+    border-style: dotted solid;
+    border-width: 5px;
+}
+
+
+/* Short Hand  --> Width, Style, Color*/
+#pokemon-go {
+    border: double 5px blue;
+}
+
+
+/* Border Radius */
+#pubg {
+    border: double 5px orange;
+    border-radius: 6px;
+}
+

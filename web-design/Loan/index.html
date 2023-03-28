@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Loan Calculator</title>
+</head>
+
+<body>
+
+    <h1>Loan Estimator</h1>
+
+
+    <div class="container" id="form">
+
+        <label for="principalAmount">Principal Loan Amount (Rs.)</label>
+        <input type="text" id="principalAmount" name="principalAmount">
+
+        <br>
+
+        <label for="interestRate">Interest Rate (%)</label>
+        <input type="text" id="interestRate" name="interestRate">
+
+        <br>
+
+        <label for="tenure">Tenture (in months)</label>
+        <input type="text" id="tenure" name="tenure">
+
+        <br>
+        <br>
+
+        <button onclick="EstimateReducingInterestLoan()">Estimate</button>
+
+    </div>
+
+
+    <div class="container" id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Details</th>
+                    <th>Reducing Interest Loan</th>
+                    <th>Fixed Interest Loan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Total Interest Rs.</td>
+                    <td>
+                        <output id="tInterest"></output>
+                    </td>
+                    <td>
+                        <output id="tInterestFixed"></output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Payment Rs.</td>
+                    <td>
+                        <output id="tPayment"></output>
+                    </td>
+                    <td>
+                        <output id="tPaymentFixed"></output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Monthly EMI Rs.</td>
+                    <td>
+                        <output id="emi"></output>
+                    </td>
+                    <td>
+                        <output id="emiFixed"></output>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
