@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Hoodies, Sweatshirts, T-Shirts, Joggers, Caps">
+
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="shortcut icon" href="resources/favicon/favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <title>Hoodie Nation: Online Shopping Site for Hoodies, Sweatshirts, T-Shirts for Men and Women</title>
+
+</head>
+
+<body>
+
+    <!-- Navbar Begin -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="resources/images/logo.png" alt="" width="40" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop Men
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                            <li><a class="dropdown-item" href="#">Sweatshirts</a></li>
+                            <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#">Joggers</a></li>
+                            <li><a class="dropdown-item" href="#">Caps</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop Women
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                            <li><a class="dropdown-item" href="#">Sweatshirts</a></li>
+                            <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#">Joggers</a></li>
+                            <li><a class="dropdown-item" href="#">Caps</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Combo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                            <li><a class="dropdown-item" href="#">Sweatshirts</a></li>
+                            <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+                            <li><a class="dropdown-item" href="#">Joggers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Gifts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Track Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav flex-row-reverse bd-highlight">
+                    <li class="nav-item">
+                        <button id="login-button" class="btn btn-outline-success" type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Login</button>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav flex-row-reverse bd-highlight">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                class="bi bi-cart-check" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Modal Begin -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input class="form-control mr-sm-2" type="text" placeholder="Email">
+                        <br>
+                        <input class="form-control mr-sm-2" type="password" placeholder="Password">
+                        <br>
+                        <p><a href="">Forgot Password</a></p>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary col">LOGIN</button>
+                </div>
+
+                <div class="container">
+                    <p><a href="">New Customer? Register</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
+
+
+    <!-- Carousel Begin -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active min-v50">
+                <img src="resources/images/carousel_03.jpg" height="582" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="target-of-carousel">
+                        <h5 class="image-label-of-carousel">Women Collections</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item min-vh-50">
+                <img src="resources/images/carousel_02.jpg" height="582" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="target-of-carousel">
+                        <h5 class="image-label-of-carousel">Summer Collections</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item min-vh-50">
+                <img src="resources/images/carousel_01.jpg" height="582" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="target-of-carousel">
+                        <h5 class="image-label-of-carousel">Shop Mens Clothing</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Trending Items Begin -->
+    <p class="text-uppercase text-center fs-1">TRENDING</p>
+
+    <div class="images-for-trending">
+        <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+            <ul id="trending-list">
+                <li>
+                    <img id="trending-section" src="resources/images/trending/01.jpg"
+                        class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+                <li>
+                    <img id="trending-section" src="resources/images/trending/02.jpg"
+                        class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+                <li>
+                    <img id="trending-section" src="resources/images/trending/03.jpg"
+                        class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Trending Items End -->
+
+
+    <!-- BestSeller Begin -->
+    <p class="text-uppercase text-center fs-1">BESTSELLER</p>
+    <div class="images-for-trending">
+        <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+            <ul id="trending-list">
+                <li>
+                    <img id="trending-section" src="resources/images/bestseller/01.jpg"
+                        class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+                <li>
+                    <img id="trending-section" src="resources/images/bestseller/02.jpg"
+                        class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+                <li>
+                    <img id="trending-section" src="resources/images/bestseller/03.jpg"
+                        class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- BestSeller End -->
+
+
+    <!-- Hoodie Nation Exclusive -->
+    <p class="text-uppercase text-center fs-1">AMAZON EXCLUSIVE</p>
+    <div class="images-for-trending">
+        <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+            <ul id="trending-list">
+                <li>
+                    <img id="trending-section" src="resources/images/amazon/01.jpg" class="img-responsive inline-block"
+                        alt="Responsive image" />
+                </li>
+                <li>
+                    <img id="trending-section" src="resources/images/amazon/02.jpg" class="img-responsive inline-block"
+                        alt="Responsive image" />
+                </li>
+                <li>
+                    <img id="trending-section" src="resources/images/amazon/03.jpg" class="img-responsive inline-block"
+                        alt="Responsive image" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Hoodie Nation Exclusive End -->
+
+
+    <!-- Footer Begin -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+
+            </div>
+
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Hoodie Nation
+                        </h6>
+                        <p>
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Hoodies</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Sweatshirts</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">T-Shirts</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Joggers</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">FAQ</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Careers</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">API</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            customercare@hoodienation.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Copyright© 2023 . All rights Reserved.
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">hoodienation.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="resources/scripts/script.js"></script>
+
+</body>
+
+</html>
