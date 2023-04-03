@@ -26,6 +26,11 @@ public class Employee {
         this.location = location;
     }
 
+    public Employee() {
+
+    }
+
+
     public int getId() {
         return id;
     }
