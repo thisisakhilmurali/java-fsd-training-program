@@ -1,0 +1,18 @@
+ {
+     "passengerInformation":{
+         "passengerName":"James",
+         "passengerEmail":"james@cia.com",
+         "source":"TVM",
+         "destination":"COK",
+         "travelDate":"01-02-2023",
+         "pickupTime":"4 PM",
+         "arrivalTime":"7 PM",
+         "fare":5000.00
+     },
+
+     "paymentInformation": {
+         "accountNumber":"acc2",
+         "cardType":"Credit Card"
+     }
+ }
+
