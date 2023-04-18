@@ -1,0 +1,7 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "outDir": "build",   // JS Files are moved when compiled
+        "target": "esnext",     // ES6 Compiler, if target is esnext, then latest version iof js
+        "noEmit": false, // if it is true, then typescript will not write anything to disk
+}
