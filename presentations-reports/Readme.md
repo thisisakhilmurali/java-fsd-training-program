@@ -10,3 +10,5 @@ Java Basic Questions [Questions](theory_questions.docx)
 Threads Documentation [Document](Threads.docx)
 
 Treeset Documentation [Document](TreeSet-Documentation.docx)
+
+Cloud - AWS [Presentation](AWS.pptx)
