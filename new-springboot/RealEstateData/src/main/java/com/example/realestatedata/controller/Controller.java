@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/q")
@@ -50,6 +51,11 @@ public class Controller {
     @GetMapping("/count/{city}")
     public Integer getCount(@PathVariable String city) {
         return eService.getCount(city);
+    }
+
+    @GetMapping("/findemi/{id}/{month}")
+    public Map<String, Double> getEMI(@PathVariable int id, @PathVariable int month) {
+        return eService.getEMI(id, month);
     }
 
 }
