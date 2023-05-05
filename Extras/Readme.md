@@ -5,3 +5,4 @@
 2. [Anagram Checker](Anagram)
 3. [Filtering the null values in list using J8 Features](FilteringNull)
 4. [Using J8 group the students based on gender](ListOfStudents)
+5. [Search for a user by his/her username](HashMap)
