@@ -12,3 +12,5 @@ Threads Documentation [Document](Threads.docx)
 Treeset Documentation [Document](TreeSet-Documentation.docx)
 
 Cloud - AWS [Presentation](AWS.pptx)
+
+Cloud - AWS Assignment (Questions + Answers) [Document](aws-assignment.docx)
