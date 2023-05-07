@@ -33,6 +33,8 @@ NOTE: Some files/projects are added in different repositories. Please go through
     Browser automation tool, selenium
 * ### [SpringBoot](spring)
     Spring boot topics constructor injection, setter injection, autowiring, JWT, validation and exception handling, IOC, transaction, Mapping
+* ### [New SpringBoot Apps](new-springboot)
+    Spring boot apps with SwaggerAPI, Mappings, ResponseEntities, JpaStreamer, Exception-Validation
 * ### [Web Design](web-design)
     HTML, CSS, JS, Bootstrap intorduction, JavaScript workouts
 * ### [TypeScript](type-script)
